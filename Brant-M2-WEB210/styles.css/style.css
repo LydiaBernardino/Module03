@@ -52,7 +52,7 @@
     width: 250px;
     text-align: right;
     margin: 10px;
-    border-right: 15px solid rgb(36, 36, 93);
+    border-right: 15px solid rgb(102, 60, 111);
     padding-right: 15px;
     padding-top: 10px;
     margin-right: -118px;
@@ -80,9 +80,9 @@
     margin-bottom: 0px;
     padding-left: 20px;
     display: inline-block;
-    border: 2px solid green;
+    border: 2px solid rgb(102, 60, 111);
     padding: 10px;
-    border-left: 30px solid green;
+    border-left: 30px solid rgb(102, 60, 111);
     margin-bottom: 50px;
   }
   
