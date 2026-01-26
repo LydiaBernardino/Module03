@@ -1,15 +1,17 @@
 
   html body {
-    margin-left: 375px;
-    margin-right: 375px;
     height: 0%;
     text-align: justify;
   }  
 
   body {
-    background-image: url("images/WidgetCoLogo.gif");
-  }
-
+    background: white url(WidgetCoLogo.gif) center no-repeat;
+}
+  
+div.release {
+  border-width: 1px 15px 1px 0;
+  text-align: center;
+}
   
   h1 {
       font-size: 40px;
@@ -17,9 +19,14 @@
       text-align: left;
       margin: none;
       padding: 30px;
-      margin-left: -130px;
       
     }
+
+  p {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
 
   h2 {
     font-size: 26px;
@@ -30,7 +37,6 @@
 
   header {
     padding: 0px;
-    position: fixed;
     top: 0%;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
@@ -42,26 +48,19 @@
     padding-top: 3px;
     font-variant: small-caps;
     border-right: 15px solid black;
-    margin: 0px 100px 0px -100px;
-    width: 25%;
   }
 
   aside {
     float: right;
-    position: fi;
-    width: 250px;
     text-align: right;
     margin: 10px;
     border-right: 15px solid rgb(102, 60, 111);
     padding-right: 15px;
     padding-top: 10px;
-    margin-right: -118px;
-    margin-top: -2px;
 }
 
   footer {
     color: #8a8a8a;
-    position: fixed;
     bottom: 0%;
     width: 100%;
     text-align: center;
@@ -71,7 +70,6 @@
     border-top: 1px solid #8a8a8a;
     padding-top: 3px;
     padding-right: 50px;
-    margin: 0px 0px 0px -100px;
 }
 
   section {
