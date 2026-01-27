@@ -1,11 +1,11 @@
 
   html body {
-    height: 0%;
     text-align: justify;
   }  
 
   body {
     background: white url(WidgetCoLogo.gif) center no-repeat;
+    
 }
   
 div.release {
@@ -17,71 +17,69 @@ div.release {
       font-size: 40px;
       font-family: 'Times New Roman', Times, serif;
       text-align: left;
-      margin: none;
-      padding: 30px;
+      margin-left: 20%;
+      margin-right: 35%;
       
     }
 
   p {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 27%;
+    margin-right: 27%;
     text-align: justify;
 }
 
   h2 {
-    font-size: 26px;
+    font-size: 23px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    margin: none;
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-top: 3%;
   }
 
   header {
-    padding: 0px;
-    top: 0%;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
-    padding-left: 300px;
-    padding-right: 300px;
     border-bottom:1px solid #000000;
     padding-bottom:3px;
     border-top: 1px solid #000000;
     padding-top: 3px;
     font-variant: small-caps;
     border-right: 15px solid black;
+    margin-right: 20%;
+    margin-left: 20%;
   }
 
   aside {
     float: right;
     text-align: right;
-    margin: 10px;
     border-right: 15px solid rgb(102, 60, 111);
     padding-right: 15px;
     padding-top: 10px;
+    margin-right: 20%;
+    font-size: smaller;
 }
 
   footer {
     color: #8a8a8a;
-    bottom: 0%;
-    width: 100%;
-    text-align: center;
+    text-align: right;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
-    padding-bottom: 3px;
     border-top: 1px solid #8a8a8a;
     padding-top: 3px;
-    padding-right: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
   section {
     background-color:beige;
-    padding: 20px;
-    margin-bottom: 0px;
-    padding-left: 20px;
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-bottom: 2%;
     display: inline-block;
     border: 2px solid rgb(102, 60, 111);
     padding: 10px;
     border-left: 30px solid rgb(102, 60, 111);
-    margin-bottom: 50px;
   }
   
 
